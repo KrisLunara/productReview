@@ -176,3 +176,24 @@ label{
   font-weight: 600;
   margin-bottom: 4px;
 }
+
+.form-input{
+  margin-bottom: 16px;
+}
+
+.form-input input, .form-input textarea, .form-input select{
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: none;
+  border: 1px solid #9CA3AF;
+  background: white;
+}
+
+.form-input input:focus, .form-input textarea:focus, .form-input textarea:focus{
+  border: 1px solid #A5F3FC;
+  box-shadow: 0 0 3px 2px #22D3EE;
+}
+
+.form-buttons{
+  display: flex;
+}
